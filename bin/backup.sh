@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-if [[$# -ne 1 ]] 
+if [[ $# -ne 1 ]] 
 then
     echo "Invalid number of arguments"
 else 
