@@ -6,7 +6,7 @@ then
 else 
     if [[ -d "$1" ]] 
     then
-        date=$(date %F)
+        date=$(date +%F)
         tar cvfz "$1"/backup_"$date".tar.gz "$HOME"
     else 
         echo "Invalid name of directory"
